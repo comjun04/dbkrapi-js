@@ -2,6 +2,7 @@
   "name": "dbkr",
   "version": "0.1.0",
   "description": "DBKR API Wrapper for Discord.js",
+  "repository": "https://github.com/comjun04/dbkrapi-js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
