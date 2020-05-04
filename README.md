@@ -34,7 +34,7 @@ client.login(token)
 
 ## 상세
 ### dbkr(client, token)
-DBKR에 등록되어 있는 자신의 봇의 **서버 수**를 변경합니다.
+DBKR에 등록되어 있는 봇의 **서버 수**를 변경합니다.
 * `client` - discord.js 클라이언트 (Client)
 * `token` - DBKR 토큰
 
