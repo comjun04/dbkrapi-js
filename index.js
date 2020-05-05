@@ -10,6 +10,6 @@ module.exports = (client, token) => {
       .set('Content-Type', 'application/json')
       .set('token', token)
       .then(() => resolve())
-      .catch(() => reject('Request failed. Maybe the token is invalid, or there was a problem at the network or the module itself. / 요청이 실패했습니다. 토큰이 올바르지 않거나, 네트위크 혹은 모듈 자체에 문제가 있을 수 있습니다.'))
+      .catch((err) => reject(err.response.body.message))
   })
 }
